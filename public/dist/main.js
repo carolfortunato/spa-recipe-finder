@@ -39,8 +39,8 @@ function loadResults() {
 
 function printResults() {
   mainSection.innerHTML = `
-  <div class="each-result"> ${match.map( item => `
-    <div class="recipe-result text-center border-bottom">
+  <div class="each-result row"> ${match.map( item => `
+    <div class="col-md-4 recipe-result text-center border-bottom">
       <h3>${item.recipeName}</h3>
       <p>${item.ingredients.join(", ")}</p>
     </div>`)
