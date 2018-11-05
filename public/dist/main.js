@@ -15,7 +15,7 @@ function loadHome() {
 function loadFavorites() {
   mainSection.innerHTML = ""
   mainSection.innerHTML = `
-  <h3 class="title favorites text-center">There's no favorites yet.</h3>`
+  <h3 class="title favorites text-center">There are no favorites yet.</h3>`
 }
 
 function loadSearch(){
