@@ -15,7 +15,10 @@ nav{
 }
 .each-result {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
+}
+.recipe-img {
+  margin: 5px;
 }
 .recipe-result {
   margin: 0px;

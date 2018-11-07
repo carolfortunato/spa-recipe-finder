@@ -41,6 +41,7 @@ function printResults() {
   mainSection.innerHTML = `
   <div class="each-result row"> ${match.map( item => `
     <div class="col-md-4 recipe-result text-center border-bottom">
+      <img class="recipe-img" src="${item['smallImageUrls'][0]}">
       <h3>${item.recipeName}</h3>
       <p>${item.ingredients.join(", ")}</p>
     </div>`)
